@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1080px;
+    margin: auto;
+}
+
+body{
+    min-height: 100vh;
+    color: rgba(229, 229, 229, 1);
+    background-image: url(../images/grapes.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+header{
+    display: inline-block;
+    padding: 43px 0;
+    border-bottom: solid 2px rgba(192, 141, 93, 1);
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 84px;
+}
+
+nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header li{
+    display: inline-block;
+}
+
+nav a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 50px;
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.caramel{
+    color: #C08D5D;
+}
+
+h1{
+    color: #3F4042;
+    font-family: Yeseva One;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 81px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    background-image: url(../images/wave.svg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    width: 355px;
+    padding-bottom: 55px;
+}
+
+main{
+    padding-top: 122px;
+    padding-bottom: 69px;
+}
+
+span{
+    font-size: 50px;
+    line-height: 58px;
+    text-transform: none;
+}
+
+span::after{
+    content: url(../images/logo.svg);
+    margin-left: 8px;
+}
+
+main p{
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 147.6%;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+    max-width: 535px;
+    margin-top: 26px;
+    margin-bottom: 72px;
+}
+
+.more{
+    display: inline-block;
+    color: #3F4042;
+    text-decoration: none;
+    border: solid 2px #C08D5D;
+    padding-left: 15px;
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    /* line-height: 64px; */
+}
+
+.more::after{
+    content: url(../images/one.svg);
+    display: inline-block;
+    background-color: #C08D5D;
+    margin-left: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
+    width: 17px;
+    line-height: 64px;
+}
+
+.mouse{
+    display: block;
+    text-align: center;
+    margin-top: 63px;
+}
